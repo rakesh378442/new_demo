@@ -11,7 +11,11 @@ class ProfileScreen extends StatelessWidget {
         Text("data"),
         Text("data"),
         Text("data"),
-
+        Row(
+          children: [
+            Text("Rakesh Amnour")
+          ],
+        )
       ],
       ));
   }
